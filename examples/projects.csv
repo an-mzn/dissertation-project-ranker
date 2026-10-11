@@ -1,0 +1,17 @@
+title,supervisor,description,tags,summary,tools,difficulty,ai_assistance,readable_description,draft_rank,topics
+Campus Garden Planner,Dr Rowan Example,Build a planner for a fictional campus garden.,Web;Sustainability,Plan planting tasks and shared spaces.,Suggested: Python;SQLite,5,7,"## Overview
+Build a planner for a fictional campus garden.
+
+## What you’ll do
+- Plan planting tasks and shared spaces.",1,Web development;Sustainability
+Accessible Museum Guide,Dr Taylor Sample,Prototype an accessible guide for a fictional museum.,Accessibility;Mobile,Help visitors explore exhibits.,Suggested: Flutter,6,6,"## Overview
+Prototype an accessible guide for a fictional museum.
+
+## What you’ll do
+1. Help visitors explore exhibits.",2,Accessibility;Mobile development
+Library Queue Simulator,Dr Morgan Demo,Compare queue policies for a fictional library.,Simulation;Data,Explore waiting times.,Suggested: Python;NumPy,7,5,"## Overview
+Compare queue policies for a fictional library.
+
+## What you’ll do
+- Explore waiting times.",3,Simulation;Data analysis
+KEP Community Noticeboard,,Build a noticeboard with searchable fictional announcements.,Web;Community,,,,,,,Community

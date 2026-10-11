@@ -1,0 +1,13 @@
+# Personal inputs, rankings, and saved progress
+/personal/
+*.ranker-session.json
+*.ranker-session.json.bak
+ranker-session.json
+ranker-session.json.bak
+# Keep your own CSVs and metadata here.
+/data/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

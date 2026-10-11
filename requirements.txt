@@ -1,0 +1,4 @@
+numpy>=1.24
+ipywidgets>=8
+ipython>=8
+jupyterlab>=4

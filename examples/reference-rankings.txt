@@ -1,0 +1,121 @@
+DRAFT 1 — DESCRIPTION-INFORMED PREFERENCE RANKING BY TOPIC
+FICTIONAL PERSONALIZATION EXAMPLE — 4 UNIQUE PROJECTS
+
+This is an illustrative companion to examples/projects.csv. All project names,
+supervisors, student preferences, and estimates below are fictional. It is a
+preliminary personal-interest ranking, not a prediction of grades or allocation.
+Three projects have tentative preference ranks; one remains for further review.
+Projects may appear under multiple topics but count once in totals.
+Topic order and within-topic numbering express provisional interest. Difficulty
+and AI-assistance scores are separate estimates, not preference rankings.
+
+DIFFICULTY SCALE (ESTIMATED FOR THIS FICTIONAL STUDENT)
+1 = low challenge relative to current experience; 10 = very high challenge.
+4–5 = relatively accessible; 6–7 = moderately demanding; 8–10 = demanding.
+Consider conceptual learning, implementation, evaluation, scope, and dependencies.
+The fictional student has introductory Python experience and some web coursework,
+with less experience in mobile accessibility and simulation. Scores may change
+when the student and supervisor agree the scope. Blank means insufficient evidence.
+
+AI ASSISTANCE SCALE (ESTIMATED PRACTICAL USEFULNESS FOR THIS FICTIONAL STUDENT)
+1 = little scope for useful assistance; 10 = substantial scope for assistance.
+Consider explanations, scaffolding, tests, and routine implementation separately
+from decisions and evaluation that require the student's own understanding.
+Scores are subjective estimates, not measured time savings or permission to use AI.
+Check the applicable assessment rules. AI assistance is independent of difficulty.
+
+ASSUMPTIONS
+- Prefers a concrete, useful prototype with a manageable scope.
+- Is interested in sustainability and accessible public services.
+- Would like to strengthen Python skills while exploring a new area.
+- Has not yet decided whether community-focused projects fit their goals.
+- These preferences belong to the fictional student; adapt them to your own.
+
+IMPORTANT REVISIONS BASED ON DESCRIPTIONS
+- The garden planner is the first tentative preference because its stated aim
+  aligns with the fictional student's sustainability interest.
+- The museum guide remains a strong option, with accessibility and mobile work
+  treated as learning areas rather than assumed existing strengths.
+- The library simulator stays available for comparison despite weaker initial fit.
+- The noticeboard needs further discussion; its KEP label does not exclude it.
+
+RANKED SECTIONS AND PROJECTS
+
+1. Web Development and Sustainability
+1. Campus Garden Planner — Dr Rowan Example | Difficulty: 5/10 | AI assistance: 7/10
+
+2. Accessibility and Mobile Development
+1. Accessible Museum Guide — Dr Taylor Sample | Difficulty: 6/10 | AI assistance: 6/10
+
+3. Simulation and Data Analysis
+1. Library Queue Simulator — Dr Morgan Demo | Difficulty: 7/10 | AI assistance: 5/10
+
+4. Shared Community Spaces
+1. Campus Garden Planner — Dr Rowan Example | Difficulty: 5/10 | AI assistance: 7/10
+   Also relevant to shared spaces. This is a duplicate topic appearance, not a
+   second project or an additional global draft rank.
+
+DIFFICULTY QUALIFICATIONS FOR SELECTED PROJECTS
+- Campus Garden Planner (5): The source only states a garden planner. Multi-user
+  coordination and complex scheduling are not established requirements.
+- Accessible Museum Guide (6): Accessibility expertise and platform choices may
+  affect difficulty; no user study or particular framework is required by the brief.
+- Library Queue Simulator (7): Evaluation depth depends on the agreed scope;
+  advanced optimization methods are not stated requirements.
+
+APPENDIX A — PROJECTS FOR FURTHER PREFERENCE REVIEW
+These projects remain in the CSV and available for comparison. This example
+uses a review appendix rather than exclusions. Blank estimates remain blank.
+
+1. KEP Community Noticeboard — Supervisor not provided | Difficulty: not estimated | AI assistance: not estimated
+   Source: build a noticeboard with searchable fictional announcements.
+   Review question: does this kind of community-facing prototype interest the
+   student? There is no supplied supervisor, global draft rank, or numeric rating.
+
+AI ASSISTANCE QUALIFICATIONS FOR SELECTED PROJECTS
+- Campus Garden Planner (7): Routine application scaffolding may be assistable;
+  correctness and a useful scope still need independent decisions and testing.
+- Accessible Museum Guide (6): Generated interface code does not establish that
+  a design is accessible. Check behavior and accessibility claims independently.
+- Library Queue Simulator (5): Assistance may help with scripts, but simulation
+  assumptions and interpretation require understanding.
+
+DIFFICULTY DISTRIBUTION — 4 UNIQUE PROJECTS (3 RATED + 1 UNRATED)
+1/10: 0
+2/10: 0
+3/10: 0
+4/10: 0
+5/10: 1
+6/10: 1
+7/10: 1
+8/10: 0
+9/10: 0
+10/10: 0
+Unrated: 1
+Duplicate topic appearances count once. Estimates are not observed workload data.
+
+AI ASSISTANCE DISTRIBUTION — 4 UNIQUE PROJECTS (3 RATED + 1 UNRATED)
+1/10: 0
+2/10: 0
+3/10: 0
+4/10: 0
+5/10: 1
+6/10: 1
+7/10: 1
+8/10: 0
+9/10: 0
+10/10: 0
+Unrated: 1
+Duplicate topic appearances count once. Estimates are not measured time savings.
+
+SOURCE AND CONFIDENCE NOTES
+- Source: examples/projects.csv; four fictional projects with short descriptions.
+- The student profile, estimates, and preferences are invented for demonstration.
+- Source descriptions do not establish tools, detailed deliverables, workload,
+  assessment rules, or allocation procedures. Suggested stacks are suggestions.
+- Confirm preferences and uncertain details before relying on the draft.
+- This TXT is a discussion artifact, not an input the root notebook reads.
+- To use your own version, ask your AI to map approved topics and numeric ratings
+  to the supported CSV columns. Convert topic-local rankings into one unique
+  global draft_rank per project; here Garden = 1, Museum = 2, Library = 3,
+  Noticeboard = blank. Duplicate topic appearances must not create extra rows.
